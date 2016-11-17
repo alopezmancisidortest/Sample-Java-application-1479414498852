@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Sample Java application
+  host: Sample-Java-application
+  disk_quota: 1024M
+  services:
+  - Sample Java application-cloudantNoSQLDB
